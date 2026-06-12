@@ -1,0 +1,139 @@
+===========================================================================
+  CLAUDE SESSION WARMER  -  HOW TO USE   (plain-English guide)
+===========================================================================
+
+WHAT THIS IS
+------------
+A little robot that wakes up every weekday morning before you start work and
+"pokes" Claude so your 5-hour usage window starts early. That way the window
+resets DURING your workday instead of in the middle of the night.
+
+If you also left it a job to do, it does the job instead of just poking.
+
+You set it up once in Task Scheduler. After that you forget about it.
+
+
+THE TWO THINGS IT CAN DO
+------------------------
+1. WARMUP (the default)
+   If you gave it no work, it sends Claude a tiny "ping" and stops.
+   That single ping is enough to start your 5-hour window.
+
+2. PRODUCTIVITY (only if you left a job)
+   If there's a job waiting in the "queue" folder, it runs that job with
+   Claude instead of pinging. When done it files the job away in "archive".
+
+It decides which one to do automatically. You don't pick.
+
+
+THE FOLDERS (what each one is for)
+----------------------------------
+  queue\     <- you DROP JOBS HERE. Empty = it just pings.
+  archive\   <- finished jobs get moved here automatically. You can ignore it.
+  logs\      <- a diary of every run. Check here if you want proof it worked.
+
+You only ever touch "queue". The other two run themselves.
+
+
+HOW TO LEAVE CLAUDE A JOB
+-------------------------
+A "job" is one small text file in the queue\ folder. It must end in .json
+and look exactly like this (two lines that matter):
+
+  {
+    "prompt": "write a summary of yesterday's notes into summary.txt",
+    "cwd":    "C:\\Users\\awsom\\OneDrive\\Documents\\cooode\\myproject"
+  }
+
+  prompt = what you want Claude to do (plain English, like you'd type it).
+  cwd    = which folder Claude should work in. Use a real folder.
+           IMPORTANT: in this file every backslash must be DOUBLED  ( \\ ).
+
+EASIEST WAY:
+  1. Go into the queue\ folder.
+  2. Copy the file "example.json.sample".
+  3. Rename your copy to something ending in .json  (e.g. "mondayjob.json").
+  4. Open it in Notepad, change the prompt and cwd, save.
+  Done. Next morning it runs.
+
+NOTES:
+  - Drop in as many .json files as you want. It runs ONE per morning,
+    oldest first. The rest wait their turn the following mornings.
+  - A file ending in .json.sample is ignored (that's why the example is safe).
+  - Empty queue is totally fine - that's just the morning ping.
+
+
+RUNNING IT YOURSELF (to test, anytime)
+--------------------------------------
+Double-clicking run_warm_dispatch.bat works, BUT the window flashes and
+closes the instant it finishes - that's normal, not a bug. It already did
+its job. To actually SEE what happened, open the log afterward (next section).
+
+Cleaner way - open PowerShell, paste this, press Enter:
+
+  cd "C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter"
+  .\run_warm_dispatch.bat
+
+
+DID IT WORK? (reading the diary / log)
+--------------------------------------
+Open logs\warm_dispatch.log in Notepad. The line that matters looks like:
+
+  RUN mode=warmup       task=ping           exit=0     <- pinged, all good
+  RUN mode=productivity task=mondayjob.json exit=0     <- ran your job, good
+
+  exit=0  means SUCCESS.
+  any other number means something went wrong (see the lines just above it
+  in the log - they explain what).
+
+Or from PowerShell, just show the last few lines:
+
+  Get-Content "logs\warm_dispatch.log" -Tail 8
+
+
+WHAT THE RESULT NUMBERS MEAN (if exit is not 0)
+-----------------------------------------------
+  0  = success, nothing to worry about
+  2  = Claude (the "claude" command) wasn't found / not logged in
+  3  = Claude ran but the job failed
+  4  = your job file was written wrong (bad JSON, or the cwd folder doesn't exist)
+  5  = the job took too long and was stopped (safety cutoff)
+  9  = some other unexpected error
+
+For 4: re-check your .json - usually a missing comma or single \ instead of \\.
+For 2: open a terminal, type  claude  - if it complains, log in to Claude Code.
+
+
+SETTING IT TO RUN EVERY MORNING (one-time setup)
+------------------------------------------------
+This is the part that makes it automatic. Full click-by-click steps are in
+README.md under "Windows Task Scheduler setup". Short version:
+
+  1. Open "Task Scheduler" (search it in the Start menu).
+  2. Click "Create Task..." (NOT "Create Basic Task").
+  3. Name it:  Claude Session Warmer
+  4. TRIGGERS tab -> New -> Weekly -> Mon Tue Wed Thu Fri -> time 05:30 -> OK
+  5. ACTIONS tab -> New -> "Start a program" ->
+        Program/script:
+          C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter\run_warm_dispatch.bat
+        Start in:
+          C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+     -> OK
+  6. SETTINGS tab -> tick "Run task as soon as possible after a scheduled
+     start is missed" (covers mornings the PC was asleep). -> OK
+  7. Save.
+
+TEST THE SCHEDULE NOW (don't wait for 5:30):
+  In Task Scheduler, right-click your task -> "Run". Then open the log and
+  confirm a fresh line with exit=0. If you see it, you're done forever.
+
+NOTE: the PC has to be ON (or asleep, if you ticked "wake the computer" -
+that option is in the Conditions tab). It can't run while fully shut down.
+
+
+THAT'S IT
+---------
+- Want a morning ping only?  Leave queue\ empty. Nothing to do.
+- Want Claude to do a job?    Drop a .json in queue\. It runs next morning.
+- Want to check it worked?    Read logs\warm_dispatch.log, look for exit=0.
+===========================================================================

@@ -1,0 +1,225 @@
+2026-06-05 01:18:09 | INFO    | ============================================================
+2026-06-05 01:18:09 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:18:09 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:18:09 | INFO    | queue empty -> warmup mode
+2026-06-05 01:18:09 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:18:12 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-05 01:18:12 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 01:18:24 | INFO    | ============================================================
+2026-06-05 01:18:24 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:18:24 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:18:24 | INFO    | queue has work -> productivity mode | task=smoketest.json
+2026-06-05 01:18:24 | INFO    | exec: claude -p <prompt len=8> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=1800s
+2026-06-05 01:18:27 | INFO    | claude stdout (tail): OK
+2026-06-05 01:18:27 | INFO    | RUN mode=productivity task=smoketest.json exit=0
+2026-06-05 01:19:01 | INFO    | ============================================================
+2026-06-05 01:19:01 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:19:01 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:19:01 | INFO    | queue empty -> warmup mode
+2026-06-05 01:19:01 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:19:06 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-05 01:19:06 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 01:31:37 | INFO    | ============================================================
+2026-06-05 01:31:37 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:31:37 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:31:37 | INFO    | queue empty -> warmup mode
+2026-06-05 01:31:37 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:31:40 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-05 01:31:40 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 01:32:01 | INFO    | ============================================================
+2026-06-05 01:32:01 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:32:01 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:32:01 | INFO    | queue empty -> warmup mode
+2026-06-05 01:32:01 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:32:05 | INFO    | claude stdout (tail): pong. Ready.
+2026-06-05 01:32:05 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 01:47:15 | INFO    | ============================================================
+2026-06-05 01:47:15 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:47:15 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:47:15 | INFO    | queue has work -> productivity mode | task=livetest.json
+2026-06-05 01:47:15 | INFO    | exec: claude -p <prompt len=27> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=1800s
+2026-06-05 01:47:19 | INFO    | claude stdout (tail): LIVE_OK
+2026-06-05 01:47:19 | INFO    | RUN mode=productivity task=livetest.json exit=0
+2026-06-05 01:47:20 | INFO    | ============================================================
+2026-06-05 01:47:20 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:47:20 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:47:20 | INFO    | queue empty -> warmup mode
+2026-06-05 01:47:20 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:47:23 | INFO    | claude stdout (tail): Pong. Ready.
+2026-06-05 01:47:23 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 01:47:24 | INFO    | ============================================================
+2026-06-05 01:47:24 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 01:47:24 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 01:47:24 | INFO    | queue empty -> warmup mode
+2026-06-05 01:47:24 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 01:47:28 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-05 01:47:28 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 08:21:55 | INFO    | ============================================================
+2026-06-05 08:21:55 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 08:21:55 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 08:21:55 | INFO    | queue empty -> warmup mode
+2026-06-05 08:21:55 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 10:38:48 | ERROR   | claude timed out after 120s - killed
+2026-06-05 10:38:48 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-05 17:01:24 | INFO    | ============================================================
+2026-06-05 17:01:24 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 17:01:24 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 17:01:24 | INFO    | queue empty -> warmup mode
+2026-06-05 17:01:24 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 17:01:39 | INFO    | claude stdout (tail): Pong. Caveman ready. What task?
+2026-06-05 17:01:39 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-05 21:45:48 | INFO    | ============================================================
+2026-06-05 21:45:48 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-05 21:45:48 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-05 21:45:48 | INFO    | queue empty -> warmup mode
+2026-06-05 21:45:48 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-05 21:45:51 | INFO    | claude stdout (tail): Pong. Ready.
+2026-06-05 21:45:51 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-06 01:30:02 | INFO    | ============================================================
+2026-06-06 01:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-06 01:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-06 01:30:02 | INFO    | queue empty -> warmup mode
+2026-06-06 01:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-06 01:30:10 | INFO    | claude stdout (tail): pong. Caveman ready. What you need?
+2026-06-06 01:30:10 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-06 12:56:13 | INFO    | ============================================================
+2026-06-06 12:56:13 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-06 12:56:13 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-06 12:56:13 | INFO    | queue empty -> warmup mode
+2026-06-06 12:56:13 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-06 12:56:28 | INFO    | claude stdout (tail): pong. Caveman mode active. Ready.
+2026-06-06 12:56:28 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-06 16:37:41 | INFO    | ============================================================
+2026-06-06 16:37:41 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-06 16:37:41 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-06 16:37:41 | INFO    | queue empty -> warmup mode
+2026-06-06 16:37:41 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 01:59:53 | ERROR   | claude timed out after 120s - killed
+2026-06-07 01:59:53 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-07 02:05:40 | INFO    | ============================================================
+2026-06-07 02:05:40 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-07 02:05:40 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-07 02:05:40 | INFO    | queue empty -> warmup mode
+2026-06-07 02:05:40 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 02:05:56 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-07 02:05:56 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-07 10:19:12 | INFO    | ============================================================
+2026-06-07 10:19:12 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-07 10:19:12 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-07 10:19:12 | INFO    | queue empty -> warmup mode
+2026-06-07 10:19:12 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 12:30:02 | INFO    | ============================================================
+2026-06-07 12:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-07 12:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-07 12:30:02 | INFO    | queue empty -> warmup mode
+2026-06-07 12:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 12:30:09 | INFO    | claude stdout (tail): pong. Caveman mode active. Ready.
+2026-06-07 12:30:09 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-07 17:30:02 | INFO    | ============================================================
+2026-06-07 17:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-07 17:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-07 17:30:02 | INFO    | queue empty -> warmup mode
+2026-06-07 17:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 17:30:11 | INFO    | claude stdout (tail): Pong. Caveman mode live. Ready.
+2026-06-07 17:30:11 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-07 22:30:02 | INFO    | ============================================================
+2026-06-07 22:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-07 22:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-07 22:30:02 | INFO    | queue empty -> warmup mode
+2026-06-07 22:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-07 22:30:09 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-07 22:30:09 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-08 21:20:49 | INFO    | ============================================================
+2026-06-08 21:20:49 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-08 21:20:49 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-08 21:20:49 | INFO    | queue empty -> warmup mode
+2026-06-08 21:20:49 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-08 22:13:12 | ERROR   | claude timed out after 120s - killed
+2026-06-08 22:13:12 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-08 23:30:02 | INFO    | ============================================================
+2026-06-08 23:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-08 23:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-08 23:30:02 | INFO    | queue empty -> warmup mode
+2026-06-08 23:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-08 23:30:09 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready.
+2026-06-08 23:30:09 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-09 14:30:02 | INFO    | ============================================================
+2026-06-09 14:30:02 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-09 14:30:02 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-09 14:30:02 | INFO    | queue empty -> warmup mode
+2026-06-09 14:30:02 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-09 14:30:11 | INFO    | claude stdout (tail): pong. Caveman mode active. Ready.
+2026-06-09 14:30:11 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-09 19:30:01 | INFO    | ============================================================
+2026-06-09 19:30:01 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-09 19:30:01 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-09 19:30:01 | INFO    | queue empty -> warmup mode
+2026-06-09 19:30:01 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-09 19:30:06 | INFO    | claude stdout (tail): Pong. Awake. What need?
+2026-06-09 19:30:06 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-10 00:30:01 | INFO    | ============================================================
+2026-06-10 00:30:01 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-10 00:30:01 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-10 00:30:01 | INFO    | queue empty -> warmup mode
+2026-06-10 00:30:01 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-10 00:30:09 | INFO    | claude stdout (tail): Pong. Ready.
+2026-06-10 00:30:09 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-10 16:00:43 | INFO    | ============================================================
+2026-06-10 16:00:43 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-10 16:00:43 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-10 16:00:43 | INFO    | queue empty -> warmup mode
+2026-06-10 16:00:43 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-10 21:53:13 | INFO    | ============================================================
+2026-06-10 21:53:13 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-10 21:53:13 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-10 21:53:13 | INFO    | queue empty -> warmup mode
+2026-06-10 21:53:13 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-10 21:55:16 | ERROR   | claude timed out after 120s - killed
+2026-06-10 21:55:16 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-11 01:30:05 | INFO    | ============================================================
+2026-06-11 01:30:05 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-11 01:30:05 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-11 01:30:05 | INFO    | queue empty -> warmup mode
+2026-06-11 01:30:05 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-11 01:30:28 | INFO    | claude stdout (tail): Pong. Caveman mode active. Ready for work.
+2026-06-11 01:30:28 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-11 13:07:40 | INFO    | ============================================================
+2026-06-11 13:07:40 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-11 13:07:40 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-11 13:07:40 | INFO    | queue empty -> warmup mode
+2026-06-11 13:07:40 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-11 13:09:43 | ERROR   | claude timed out after 120s - killed
+2026-06-11 13:09:44 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-11 20:01:34 | INFO    | ============================================================
+2026-06-11 20:01:34 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-11 20:01:34 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-11 20:01:34 | INFO    | queue empty -> warmup mode
+2026-06-11 20:01:34 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-11 21:30:03 | INFO    | ============================================================
+2026-06-11 21:30:03 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-11 21:30:03 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-11 21:30:03 | INFO    | queue empty -> warmup mode
+2026-06-11 21:30:03 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-11 21:30:17 | INFO    | claude stdout (tail): Pong. Ready.
+2026-06-11 21:30:17 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-12 02:30:27 | INFO    | ============================================================
+2026-06-12 02:30:28 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-12 02:30:28 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-12 02:30:28 | INFO    | queue empty -> warmup mode
+2026-06-12 02:30:28 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-12 02:32:30 | ERROR   | claude timed out after 120s - killed
+2026-06-12 02:32:30 | INFO    | RUN mode=warmup task=ping exit=5
+2026-06-12 07:30:01 | INFO    | ============================================================
+2026-06-12 07:30:01 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-12 07:30:01 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-12 07:30:01 | INFO    | queue empty -> warmup mode
+2026-06-12 07:30:01 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-12 07:30:11 | INFO    | claude stdout (tail): Pong. Ready.
+2026-06-12 07:30:11 | INFO    | RUN mode=warmup task=ping exit=0
+2026-06-12 12:30:03 | INFO    | ============================================================
+2026-06-12 12:30:03 | INFO    | warm_dispatch start | base=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter
+2026-06-12 12:30:03 | INFO    | claude: C:\Users\awsom\.local\bin\claude.EXE
+2026-06-12 12:30:03 | INFO    | queue empty -> warmup mode
+2026-06-12 12:30:03 | INFO    | exec: claude -p <prompt len=4> cwd=C:\Users\awsom\OneDrive\Documents\cooode\claudecode\projects\claude resetter timeout=120s
+2026-06-12 12:30:21 | INFO    | claude stdout (tail): Here. Ready.
+2026-06-12 12:30:21 | INFO    | RUN mode=warmup task=ping exit=0
